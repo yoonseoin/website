@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	
+}
+header {
+	background-color: navy;
+	color: white;
+	text-align: center;
+}
+article {
+	background-color: lightblue;
+	display: flex;
+}
+section {
+	border: 2px dotted black;
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 25px;
+	border: 2px dotted black;
+	width: 360px;
+	height: 830px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	word-break: keep-all;
+}
+section > h2 {
+	text-align: center;
+}
+
